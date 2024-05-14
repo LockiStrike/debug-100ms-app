@@ -1,1 +1,789 @@
-{}
+{
+  "error": {
+    "something-went-wrong": "Algo salió mal"
+  },
+  "global": {
+    "drop-here": "Caer aquí",
+    "settings": "Ajustes",
+    "done": "Hecho",
+    "change": "Cambiar",
+    "unknown": "desconocido",
+    "delete": "Borrar",
+    "leave": "Dejar",
+    "ban": "Prohibición",
+    "unban": "Desbanear",
+    "timeout": "Se acabó el tiempo",
+    "untimeout": "Untimeout",
+    "block": "Bloquear",
+    "unblock": "Desatascar",
+    "edit": "Editar",
+    "loading": "Cargando...",
+    "cancel": "Cancelar",
+    "join": "Unirse",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "select-all": "Seleccionar todo",
+    "next": "Próximo",
+    "nft": "NFT",
+    "photo": "Foto",
+    "video": "Video",
+    "attachment": "Adjunto",
+    "send": "Enviar",
+    "add": "Agregar",
+    "explore": "Explorar",
+    "log-out": "Cerrar sesión",
+    "log-in": "Acceso",
+    "download-app": "Descargar aplicación",
+    "home": "Inicio",
+    "sign-out": "desconectar",
+    "continue": "Continuar",
+    "resend": "reenviar",
+    "required": "Requerido",
+    "and": "y",
+    "create": "Crear",
+    "view": "Ver",
+    "add-new": "Añadir Nuevo",
+    "search": "Buscar en",
+    "buy": "Comprar",
+    "start": "Inicio",
+    "connect": "Conectar",
+    "install": "Instale",
+    "finish": "Acabado",
+    "save": "Guardar",
+    "apply": "Solicitar",
+    "delete-success": "Eliminado con éxito",
+    "test": "Prueba",
+    "remove": "Eliminar",
+    "max-file-size": "Tamaño máximo del archivo: {{fileSize}}",
+    "file-type-not-allowed": "Tipo de archivo no permitido",
+    "file-too-big": "El tamaño del archivo es demasiado grande",
+    "upload-video": "Subir vídeo",
+    "upload": "Cargar",
+    "general-error": "Ocurrió un error. Por favor, inténtelo de nuevo más tarde",
+    "download": "descargar"
+  },
+  "time": {
+    "monthly": "Mensualmente",
+    "annually": "Anualmente"
+  },
+  "channel": {
+    "read-only-mode": "El canal está en modo de solo lectura",
+    "connection-error": "Error de conexión, espere un momento y vuelva a intentarlo.",
+    "fetch-users-error": "Se ha producido un error al cargar los usuarios",
+    "no-messages-yet": "Aún no hay mensajes...",
+    "name-placeholder": "Nombre-del-grupo",
+    "channels": {
+      "name": {
+        "plural": "Canales"
+      },
+      "loading": "Canales cargando...",
+      "no-channels-text": "Aún no tienes canales...",
+      "new-channel": "Nuevo canal"
+    },
+    "chats": {
+      "name": {
+        "plural": "Mensajes"
+      },
+      "loading": "Mensajes cargando...",
+      "no-channels-text": "Aún no tienes chats...",
+      "create-new-button-text": "Nuevo mensaje privado",
+      "select-user": "Seleccionar usuario",
+      "new-group": "Nuevo grupo"
+    },
+    "search": {
+      "placeholder": "Buscar canal",
+      "no-channels-found": "No se encontraron canales",
+      "no-chats-found": "No se encontraron chats"
+    },
+    "permission": {
+      "block-general-title": "¿Qué pueden hacer los miembros de este grupo?",
+      "send-message-title": "Enviar mensajes",
+      "send-message-error": "No se ha podido actualizar la configuración de solo lectura",
+      "send-media-title": "Enviar medios",
+      "error-common": "Ocurrió un error al actualizar el permiso",
+      "send-stickers-and-gifs-title": "Enviar pegatinas",
+      "send-links-title": "Enviar enlaces",
+      "send-polls-title": "Enviar encuestas",
+      "add-members-title": "Añadir miembros",
+      "pin-messages-title": "Mensajes de pines",
+      "only-nft-owner-title": "Solo propietario de NFT",
+      "slow-mode-title": "Modo lento",
+      "fetch-error": "Hubo un problema al obtener sus permisos"
+    },
+    "action": {
+      "update-name-success": "¡Nombre del canal cambiado!",
+      "update-name-confirmation-text": "¿Estás seguro de cambiar el nombre del canal a{{name}}?",
+      "confirm-leave-title": "Confirmar salida",
+      "leave-pass-admin-rights": "Pasar derechos de administrador a",
+      "leave-confirmation-text": "¿Estás seguro de que quieres abandonar el canal?{{channelName}}?",
+      "leave-success": "Izquierda{{channelName}} canal",
+      "delete-success": "{{channelName}} canal eliminado.",
+      "delete-confirmation-text": "estas seguro que quieres borrarlo{{channelName}}? ",
+      "leave-title": "Salir del canal",
+      "leave-button-text": "Salir del canal",
+      "delete-title": "Eliminar canal",
+      "delete-button-text": "Eliminar canal",
+      "join-title": "Unirse al canal",
+      "join-success": "Se unió con éxito.",
+      "join-error": "No se pudo unir al canal.",
+      "join-confirmation-text": "¿Estás seguro de que quieres unirte al canal? {{channelName}}?",
+      "join": "Unirse",
+      "update-name-title": "Cambiar el nombre del canal",
+      "block-success": "El usuario ha sido bloqueado",
+      "block-error": "El usuario no fue bloqueado",
+      "unblock-success": "El usuario ha sido bloqueado",
+      "unblock-error": "El usuario no fue bloqueado",
+      "update-notification-settings-success": "La configuración de notificaciones push no se actualizó para {{channelType}} tipo de canal",
+      "cannot-leave-lockerverse": "No puedes salir de la comunidad de Lockerverse"
+    },
+    "message": {
+      "action": {
+        "delete-title": "Borrar mensaje",
+        "send": "Enviar mensaje",
+        "pin": "Alfiler",
+        "edit": "Editar",
+        "reply": "Responder",
+        "open-thread": "Hilo abierto",
+        "copy-text": "Copiar texto",
+        "flag": "Bandera",
+        "delete-confirmation": "¿Está seguro de que desea eliminar el mensaje seleccionado?"
+      }
+    },
+    "validation": {
+      "name-already-taken": "Este nombre ya ha sido tomado",
+      "name-required": "Se requiere el nombre"
+    },
+    "select-user": {
+      "no-matches-found": "No se encontraron usuarios coincidentes",
+      "no-users-found": "No se encontraron usuarios",
+      "select-title_one": "Seleccionar usuario",
+      "select-title_other": "Seleccionar usuarios"
+    },
+    "context-menu": {
+      "no-actions-available": "No hay acciones que puedas hacer en este momento.",
+      "cannot-message-blocked-user": "No puede enviar un mensaje al usuario que bloqueó"
+    },
+    "channel-members-online-info_one": "{{membersCount}} miembro, {{onlineCount}} en línea",
+    "channel-members-online-info_other": "{{membersCount}} miembros, {{onlineCount}} en línea",
+    "members-label_one": "1 miembro",
+    "members-label_other": "{{count}} miembros"
+  },
+  "user": {
+    "profile": "Perfil",
+    "profile-photo": "Foto de perfil",
+    "update-error": "Un error al actualizar el perfil",
+    "update-success": "Actualizado",
+    "about-me-max-length": "Acerca de mí sólo puede tener {{length}} caracteres",
+    "banner": "Banner",
+    "introduce-yourself": "Preséntate...",
+    "update": "Actualizar",
+    "banner-color": "Color de la pancarta",
+    "upload-banner": "Subir pancarta",
+    "banner-select-format-text": "Seleccione un PNG, JPG o GIF",
+    "or-dnd-here": "o arrastra y suelta aquí",
+    "about-me": "Acerca de mí",
+    "fetch-error": "Error al recuperar el usuario",
+    "action": {
+      "delete-title": "Borrar cuenta",
+      "delete-button-text": "Borrar cuenta",
+      "delete-failed": "No se pudo eliminar el usuario",
+      "delete-confirmation-text": "¿Está seguro de que desea eliminar su cuenta?"
+    },
+    "collection-panel": {
+      "my-collection": "Mi colección",
+      "owned": "propiedad",
+      "search-for-nft": "Buscar NFT",
+      "mint": "menta",
+      "redeem": "Canjear",
+      "owned-by-you": "Propiedad tuya",
+      "description": "Descripción"
+    },
+    "validation": {
+      "first-name-required": "Se requiere el primer nombre"
+    },
+    "wallet": {
+      "title": "Billetera",
+      "install-wallet": "Instalar Monedero",
+      "connect-wallet": "Conectar billetera"
+    },
+    "user-settings": "Ajustes de usuario",
+    "my-collection": "Mi colección",
+    "user-profile": "Perfil del usuario",
+    "payment-settings": "Configuración de pago"
+  },
+  "community": {
+    "join-error": "Hubo un problema al unirse a la comunidad.",
+    "leave-error": "Hubo un problema al salir de la comunidad.",
+    "user-management": "Gestión de usuarios",
+    "messages-management": "Gestión de mensajes",
+    "channel-management": "Gestión de canales",
+    "invite-people": "Invitar a la gente",
+    "community-settings": "Configuración de la comunidad",
+    "create-channel": "Crear canal",
+    "tier": {
+      "title": "Niveles pagados por la comunidad",
+      "reorder-error": "No se pudieron reordenar los niveles",
+      "add-tier-title": "Nuevo nivel",
+      "add-tier-subtitle": "Agregar nuevo nivel pago",
+      "add-tier": "Agregar",
+      "tier-created": "Se crea un nuevo nivel",
+      "name": "Nombre del nivel",
+      "name-placeholder": "Nombre del nivel",
+      "price": "Precio",
+      "description": "Descripción",
+      "perks": "Ventajas",
+      "description-placeholder": "Línea descriptiva",
+      "tier-modified": "El nivel se ha actualizado correctamente",
+      "cannot-delete": "No se puede eliminar el nivel porque tiene suscripciones activas. Comuníquese con el soporte de Lockerverse.",
+      "annual-price": "Precio Anual"
+    },
+    "overview": {
+      "overview-title": "Visión general",
+      "name-field-title": "Nombre de la comunidad",
+      "name-field-placeholder": "Introduce un nombre...",
+      "update-success": "La Comunidad se actualiza",
+      "update-failed": "Error al actualizar la comunidad",
+      "change-avatar": "Cambiar avatar",
+      "edit-image": "Editar imagen",
+      "upload-banner": "Subir Banner",
+      "default-channel": "Canal por defecto",
+      "no-default-channel": "No Canal por defecto",
+      "type-required": "El tipo es obligatorio",
+      "external-link-required": "Enlace obligatorio",
+      "file-required": "Se requiere archivo",
+      "description": "Descripción",
+      "color": "Color"
+    },
+    "official-content": {
+      "title": "Contenido promocional",
+      "select-type-title": "Tipo de contenido",
+      "file-select-option": "Cargar contenido propio",
+      "link-select-option": "Enlace a Youtube",
+      "upload-new-content": "Cargar nuevos contenidos",
+      "action-banner-description": "Contenido principal en la portada de su comunidad",
+      "no-content": "Todavía no hay contenido...",
+      "current-content": "Contenido actual: ",
+      "remove-success": "Se elimina el contenido promocional",
+      "remove-failure": "No se ha eliminado el contenido promocional",
+      "youtube-link-label": "Enlace a Youtube"
+    },
+    "invite": {
+      "invites": "Invita",
+      "create-link": "Crear nuevo enlace de invitación",
+      "welcome-channel-label": "Redirigir a",
+      "welcome-channel-hint": "Elija el canal que verá el usuario cuando abra la aplicación",
+      "no-welcome-channel": "No Canal seleccionado",
+      "link-title": "Enlace de invitación",
+      "share-with-friend": "Enviar un enlace de invitación a la comunidad a un amigo",
+      "validating-link": "Validando enlace de invitación...",
+      "link-invalid": "El enlace de invitación no es válido",
+      "accepting-link": "Aceptando enlace de invitación....",
+      "link-accepted": "El enlace fue aceptado. ",
+      "invite-url-validation-error": "La URL de invitación sólo puede contener caracteres alfanuméricos (A-Z y 0-9), guiones bajos y guiones",
+      "invite-type": "Tipo de enlace",
+      "redirect-type": "Tipo de redireccionamiento",
+      "invite-url": "Invitar URL",
+      "invite-type-generated": "Generado",
+      "invite-type-custom": "A medida",
+      "redirect-type-channel": "canal",
+      "redirect-type-merch": "Mercadería",
+      "create-link-error": "Error al crear el enlace de invitación",
+      "assign-role-label": "Asignar función",
+      "assign-role-admin": "Admin",
+      "assign-role-user": "Usuario",
+      "assign-role-user-free-access": "Usuario con acceso libre",
+      "usage-type-label": "Límite de uso",
+      "usage-type-one-time": "Un solo uso",
+      "usage-type-unlimited": "Uso ilimitado",
+      "user-filter-label": "Usuario",
+      "admin-filter-label": "Admin",
+      "user-free-access-filter-label": "Usuario libre",
+      "uses-label": "Utiliza",
+      "used-label": "Usado"
+    },
+    "role": {
+      "roles-title": "roles",
+      "add-members-to-role": "Añadir miembros - {{role}}",
+      "edit-role": "Editar rol - {{role}}",
+      "search-users": "Buscar usuarios",
+      "role-assign-success": "Rol asignado",
+      "role-unassign-success": "{{userName}} ya no es un {{roleTitle}}",
+      "add-members": "Añadir miembros",
+      "fetch-error": "Error al recuperar los roles de la comunidad",
+      "organize-your-members": "Organiza a tus miembros",
+      "organize-members-subtitle": "Use roles para agrupar a los miembros de su comunidad y asignar permisos.",
+      "assign-role": "Asignar rol",
+      "search-roles": "Funciones de búsqueda",
+      "admin": "Administración",
+      "moderator": "Moderador",
+      "user": "Usuario",
+      "user-free-access": "Usuario de libre acceso"
+    },
+    "ban": {
+      "ban-user": "Prohibir usuario",
+      "banned-users": "Usuario prohibido",
+      "success-text": "El usuario ha sido baneado",
+      "error-text": "El usuario no fue baneado",
+      "unban-title": "Desbanear usuario",
+      "unban-success": "El usuario ha sido desbaneado",
+      "unban-error": "El usuario no fue desbaneado",
+      "ban-reason": "Prohibido por <b>{{bannedBy}}</b> para <b> {{reason}}</b>",
+      "remove-ban": "eliminar la prohibición",
+      "filter-mock": "Filtrar por acción <b>todo</b>",
+      "fetch-error": "Hubo un problema al obtener usuarios prohibidos",
+      "ban-confirmation-text": "¿Estás seguro de que quieres banear a @?{{userName}}?",
+      "unban-confirmation-text": "¿Estás seguro de que quieres desbanear a @?{{userName}}?",
+      "search-users": "Buscar usuarios"
+    },
+    "timeout": {
+      "timed-out-users": "Usuarios con tiempo de espera agotado",
+      "timeout-user": "Usuario de tiempo de espera",
+      "timeout-confirmation-text": "¿Estás seguro de que deseas el tiempo de espera @?{{userName}}?",
+      "success-text": "Se ha agotado el tiempo de espera del usuario",
+      "error-text": "No se agotó el tiempo de espera del usuario",
+      "untimeout-user": "Usuario sin tiempo de espera",
+      "untimeout-success": "Se ha desactivado el tiempo de espera del usuario",
+      "untimeout-error": "No se agotó el tiempo de espera del usuario",
+      "untimeout-confirmation-text": "¿Estás seguro de que quieres anular el tiempo de espera de @?{{userName}}?",
+      "time-left": "{{time}} izquierda",
+      "remove-timeout": "Eliminar tiempo de espera",
+      "search-users": "Buscar usuarios"
+    },
+    "notification": {
+      "messaging": "Notificaciones Push",
+      "notifications": "Notificaciones",
+      "all-users": "Todos los usuarios",
+      "selected-users": "Usuarios seleccionados",
+      "push-success-message_one": "La notificación push se envió con éxito a 1 dispositivo",
+      "push-success-message_other": "La notificación push se envió con éxito a {{count}} dispositivos",
+      "push-error-message": "Error al enviar una notificación push",
+      "send-to": "Enviar a",
+      "recipients": "Destinatarios",
+      "title": "Título",
+      "body": "Cuerpo",
+      "team-channels": "Canales de equipo",
+      "messaging-channels": "Mensajes directos",
+      "events": "Eventos",
+      "system": "Sistema",
+      "validation": {
+        "at-least-1-recipient": "Debes elegir al menos 1 destinatario",
+        "valid-deep-link": "Debe introducir un enlace profundo Lockerverse válido"
+      },
+      "navigate-url": "URL de navegación",
+      "title-placeholder": "Hola desde Lockerverse",
+      "body-placeholder": "Echa un vistazo a nuestro nuevo merch",
+      "advanced-section": "Avanzado"
+    },
+    "flag": {
+      "flagged-messages": "Mensajes marcados"
+    },
+    "channel": {
+      "edit-channels": "Editar canales",
+      "channel-order": {
+        "title": "Orden de canales",
+        "subtitle": "Arrastre y suelte para reordenar los canales de la comunidad."
+      }
+    },
+    "content": {
+      "title": "Contenido",
+      "update-success": "¡Cargado con éxito!",
+      "update-error": "Un error al cargar",
+      "name": "Nombre",
+      "name-placeholder": "Introduzca el nombre del contenido",
+      "description": "Descripción",
+      "description-placeholder": "Introduzca la descripción del contenido",
+      "upload-file": "Subir archivo",
+      "dropzone-hint": "Suelte los archivos aquí o haga clic para seleccionarlos",
+      "uploading": "Subiendo...",
+      "batch-delete-disabled-tooltip": "Primero debe seleccionar los elementos que desea eliminar",
+      "view-title": "Contenido",
+      "no-content": "Aún no hay contenido",
+      "read-more": "Seguir leyendo",
+      "file-required": "Se requiere archivo",
+      "name-required": "Se requiere el nombre",
+      "description-required": "Descripción obligatoria",
+      "description-max-length-error": "La descripción no puede ser más larga que {{maxLength}} símbolos"
+    },
+    "shop": {
+      "title": "Tienda",
+      "add-your-shop-title": "Añada su tienda a la Comunidad",
+      "add-your-shop-subtitle": "Añada su tienda a la comunidad utilizando el token de acceso API",
+      "add-shop": "Añadir tienda",
+      "fetch-error": "No se han encontrado tiendas comunitarias",
+      "shop-url-pattern-error": "La url de la tienda debe terminar en .myshopify.com",
+      "shop-is-saved": "La tienda se guarda",
+      "failed-to-save": "No se ha podido salvar la tienda",
+      "shop-label": "Título de la tienda",
+      "shop-placeholder": "nombre para su tienda",
+      "required-for-nft-gating": "necesario para el cierre de fichas NFT",
+      "api-secret-key": "Clave secreta API",
+      "shop-label-hint": "visible sólo para ti",
+      "shop-url": "URL de la tienda",
+      "storefront-token": "Identificador de acceso a la API de la tienda",
+      "admin-api-token": "Token de acceso a la API de administración",
+      "admin-api-token-placeholder": "Su token de acceso a la API de administración",
+      "collection-id-label": "Identificación de la colección",
+      "collection-id-label-hint": "Especificar para mostrar sólo cierta colección, dejar vacío para todos los productos de la tienda",
+      "collection-id-placeholder": "427123456789",
+      "confirm-dialog": {
+        "title": "Eliminar tienda",
+        "remove-shop-text": "¿Estás seguro de que quieres eliminar la tienda {{shopName}} de la comunidad?",
+        "remove-success": "La tienda se ha eliminado correctamente",
+        "remove-failure": "No se ha podido eliminar la tienda"
+      }
+    },
+    "widgets": {
+      "title": "Widgets",
+      "title-input": "Nombre del widget",
+      "edit-header": "Editar widget",
+      "update-error": "Error al actualizar el widget",
+      "reorder-error": "Error al reordenar el Widget"
+    },
+    "banners": {
+      "title": "Banners",
+      "banner-details": "Detalles del banner",
+      "button-title-field": "Botón Título",
+      "banner-state-visible": "Visible",
+      "banner-state-hidden": "Oculto",
+      "banner-enable": "Activar",
+      "banner-disable": "Desactivar",
+      "upload-dropzone-hover-text": "Subir Banner",
+      "errors": {
+        "fetch-all": "Fallo al cargar Banners",
+        "create": "Error al crear el Banner",
+        "update": "Error al actualizar el Banner",
+        "delete": "Error al borrar el Banner",
+        "reorder": "Error al reordenar el Banner"
+      }
+    },
+    "livestream": {
+      "title": "Transmisión en directo",
+      "stream-id": "ID de Bambuser livestream",
+      "broadcast-key": "Clave de emisión",
+      "id-required": "Se requiere identificación",
+      "enable-toggle-text": "Estado de la retransmisión en directo",
+      "enable-toggle-hint": "Mostrar u ocultar la retransmisión en directo para los usuarios de la aplicación",
+      "update-success": "Se actualiza la configuración de Livestream",
+      "update-failure": "Error al actualizar la configuración de livestream"
+    },
+    "poll": {
+      "title": "Encuesta",
+      "add-poll-title": "Crear encuesta",
+      "add-poll-subtitle": "Crea una encuesta para comunicarte con tu comunidad",
+      "add-poll": "Crear encuesta",
+      "question": "Pregunta",
+      "ask-question": "Hacer una pregunta",
+      "poll-options": "Opciones de encuesta",
+      "option-placeholder": "Opción",
+      "option-validation-error": "Se requieren al menos 2 opciones",
+      "poll-created": "La encuesta se ha creado con éxito",
+      "reorder-error": "Fallo al reordenar las encuestas",
+      "options": "Opciones"
+    },
+    "discover": {
+      "search": "Buscar en",
+      "join": "Únete a",
+      "joined": "Se unió a",
+      "request-join": "Solicitud de adhesión",
+      "purchase-subscription": "Compra",
+      "cancel-request-join": "Cancelar solicitud",
+      "request-cancelled": "Se cancela la solicitud de adhesión",
+      "request-success": "Se registra la solicitud de adhesión"
+    },
+    "members": {
+      "title": "Miembros",
+      "username": "Nombre de usuario",
+      "membership": "Afiliación",
+      "signup-date": "Fecha de inscripción",
+      "free": "Gratis",
+      "status": "Estado",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "basic": "Básico"
+    },
+    "channels": {
+      "title": "Canales",
+      "update-success": "Se actualiza la configuración de los canales",
+      "update-failure": "Error al actualizar la configuración de los canales",
+      "list": "Vista completa de la lista de canales",
+      "single": "Vista de 1 canal"
+    },
+    "content-management": {
+      "title": "Gestión de contenidos",
+      "action-banner-title": "Añadir nuevo flujo de noticias",
+      "action-banner-description": "Añade un flujo de noticias a tu comunidad",
+      "action-banner-button-text": "Añadir flujo de noticias",
+      "name": "Nombre",
+      "search-query": "Consulta de búsqueda",
+      "query-interval": "Intervalo de consulta",
+      "inserted-articles": "Artículos insertados con cada tirada",
+      "status": "Estado",
+      "every-n-days_one": "Cada <span>{{count}}</span> día",
+      "every-n-days_other": "Cada <span>{{count}}</span> días",
+      "articles-per-query_one": "<span>{{count}}</span> artículo por consulta",
+      "articles-per-query_other": "<span>{{count}}</span> artículos por consulta",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "add-news-stream": "Añadir flujo de noticias",
+      "articles-amount": "La cantidad de artículos que se insertan automáticamente con cada ejecución",
+      "create-success": "El flujo de noticias se ha creado correctamente",
+      "create-failure": "Error al crear flujo de noticias",
+      "delete-success": "El flujo de noticias se ha eliminado correctamente",
+      "delete-failure": "No se ha podido eliminar el flujo de noticias",
+      "query-interval-in-days": "Intervalo de consulta en días"
+    }
+  },
+  "crypto": {
+    "mint": {
+      "nft-is-ready": "Tu NFT está Listo 🎉",
+      "nft-minted-greeting": "¡Felicidades! ",
+      "check-out": "Verificar",
+      "mint-in-progress": "Acuñando su NFT",
+      "wait-for-mint-main-text": "Siéntase libre de navegar a través de nuestros canales.",
+      "wait-for-mint-secondary-text": "Le notificaremos una vez que su NFT esté listo.",
+      "get-my-nft": "Obtener mi NFT"
+    },
+    "deposit": {
+      "deposit-address": "Deposit address",
+      "chain-warning": "Send only <span>{{chain}}</span> NFT to this address, otherwise your asset will be lost.",
+      "cryptocurrency-warning": "Send only NFT to this address. Sending cryptocurrencies will lead to funds lost."
+    },
+    "promo-nft": {
+      "header": "¡Tienes una promo NFT para canjear!",
+      "subheader": "¿Listo para canjearlo? 🎉",
+      "cta": "Ver mis fichas"
+    }
+  },
+  "legal": {
+    "terms": "Términos",
+    "privacy": "Privacidad"
+  },
+  "mobile-socials": {
+    "be-first-to-know": "Sé el primero en enterarte 🚀"
+  },
+  "sign-up": {
+    "title": "Inscribirse",
+    "name-label": "Nombre completo (se mostrará a otros usuarios)",
+    "already-have-account-text": "¿Ya tienes una cuenta?",
+    "confirm-code": {
+      "code-sent": "El código ha sido reenviado",
+      "confirm-error": "No se puede confirmar el código, inténtalo de nuevo",
+      "code-sent-to-phone": "Hemos enviado un código a su teléfono. ",
+      "didnt-receive-text": "¿No recibiste el código?",
+      "confirm-success": "El usuario ha sido confirmado. ",
+      "code-incorrect": "Ocurrió un error. ",
+      "enter-code": "Ingrese su código"
+    },
+    "enter-password": "Ingresa tu contraseña",
+    "create-password": "Crea tu contraseña",
+    "phone": "Teléfono",
+    "password": "Contraseña",
+    "toc-label": "Términos y condiciones",
+    "toc-1": "Acepto y reconozco que Lockerverse puede enviar mensajes de texto a mi número de teléfono inalámbrico para cualquier fin, incluidos los de marketing y otros fines comerciales. ",
+    "tos-label": "Términos de servicio",
+    "privacy": "política de privacidad",
+    "toc-last": ". ",
+    "error-general": "Ocurrió un error durante el registro. ",
+    "claim": {
+      "enter-phone-number": "Ingrese su número telefónico",
+      "sign-up-to-redeem": "Regístrate para canjearlo",
+      "log-in-to-redeem": "Inicia sesión para canjearlo",
+      "token-greetings": "¡Felicidades! ",
+      "congratulations": "Felicidades",
+      "you-won-token": " Ganaste una ficha 🎉"
+    },
+    "validation": {
+      "phone-required": "Se requiere el número de teléfono",
+      "phone-not-valid": "El número de teléfono no es válido",
+      "user-with-phone-already-exists": "El usuario con el número de teléfono dado ya existe. ",
+      "creds-invalid": "Ocurrió un error durante el inicio de sesión. ",
+      "general-error": "Ocurrió un error. ",
+      "name-required": "Se requiere el nombre",
+      "country-not-supported": "Los números de teléfono de este país aún no son compatibles",
+      "password-general": "la contraseña debe contener 8 o más caracteres con al menos uno de cada uno: mayúscula, minúscula, número y especial",
+      "password-lower-letter": "la contraseña debe contener al menos 1 letra minúscula",
+      "password-upper-letter": "la contraseña debe contener al menos 1 letra mayúscula",
+      "password-number-letter": "la contraseña debe contener al menos 1 número",
+      "password-special-character": "la contraseña debe contener al menos 1 carácter especial"
+    }
+  },
+  "log-in": {
+    "title": "Acceso",
+    "log-in-error": "¡Vaya! ",
+    "user-not-confirmed": "Su cuenta no está confirmada.",
+    "dont-have-account": "¿Tienes una cuenta?",
+    "forgot-password": "¿Ha olvidado su contraseña?"
+  },
+  "enter-page": {
+    "title": "Entra en el casillero",
+    "description": "La primera plataforma digital de su tipo en la encrucijada de los deportes, los juegos, el anime, la moda, el arte y la cultura, donde presentamos las colecciones personales de las más grandes leyendas en ciernes de la vida.",
+    "join-now": "Únete ahora"
+  },
+  "forgot-password": {
+    "title": "¿Ha olvidado su contraseña?",
+    "subtitle": "No te preocupes. Sucede. Por favor, introduzca su número de teléfono registrado.",
+    "general-error": "Ocurrió un error. ",
+    "reset-success": "Su contraseña ha sido cambiada exitosamente.",
+    "reset-failed": "Ocurrió un error. ",
+    "placeholder": "Pon tu contraseña",
+    "verification-code": "Código de verificación",
+    "reset-password": "Restablecer la contraseña"
+  },
+  "main-page": {
+    "title-1": "Exhibir las Leyendas",
+    "text-1": "El equipo de Lockerverse se enorgullece de exhibir el trabajo y las personalidades de las leyendas en el proceso de convertirse. ",
+    "text-2": "No solo estamos contando historias, estamos diciendo la verdad... Con la autenticidad como nuestra estrella polar, nos enfocamos en lo que hace que nuestros héroes estén conectados a tierra y con los que se pueda relacionar: el proverbial \"hombre común\" que prospera detrás de la personalidad pública.",
+    "text-3": "No solo estamos contando historias, estamos diciendo la verdad... Con la autenticidad como nuestra estrella polar, nos enfocamos en lo que hace que nuestros héroes estén conectados a tierra y con los que se pueda relacionar: el proverbial \"hombre común\" que prospera detrás de la personalidad pública.",
+    "find-more": "Encuentra más",
+    "enter-the-lockerverse": "Entra en el casillero",
+    "sub-header": "La primera plataforma digital de su tipo en la encrucijada de los deportes, los juegos, el anime, la moda, el arte y la cultura, donde presentamos las colecciones personales de la vida.",
+    "what-is-nft": "¿Qué es un NFT?",
+    "what-is-nft-description": "Un NFT, abreviatura de",
+    "nft-special-title": "¿Qué hace que Lockerverse NFT sea especial?",
+    "nft-special-description": "Let's face it: being first is a flex. You were a first. When you were born, you came into this life being one of a kind. Why should your art be any different? Technology has given us the ability to magnify the lens of how we create, how we personalize. And at the center of this is you. NFT ownership is how tomorrow's visionaries are reclaiming our individuality and creativity by putting the power back in our hands. These are the spaces where we are defining our culture, giving wings to what matters most to us. <br /> <br /> <br /> With new NFT collections coming out every week, it's getting increasingly difficult to separate the burnouts from the lasting legends, but Lockerverse tokens are here to stay. And you'll want one because everyone we welcome into our collective is here in earnest to explore, challenge, disrupt, and shape the canvas of the future. The metaverse is the wild west and we're trailblazing together. Follow the creatives making the biggest waves and enjoying knowing that you saw it first. Sure you can join us at any time, but journeys are always best when you start from the beginning."
+  },
+  "room-page": {
+    "go-to-bronny-room": "Ve a la habitación de Bronny."
+  },
+  "prepay": {
+    "nft-sale": "Venta de NFT",
+    "buy-cj": "Compra el coleccionable CJ Stroud ☄️",
+    "secondary-title": "Por favor, pague por adelantado NFT para reclamarlo",
+    "pay": "pagar",
+    "enter-lockerverse": "Entra en Lockerverse"
+  },
+  "pre-purchase-flow": {
+    "banner-title": "Echa un vistazo a la nueva colección <br /> de Chase B",
+    "tiers-header": "Colección Chase B",
+    "tier-1": "Nivel 1",
+    "tier-2": "Nivel 2",
+    "tier-3": "Nivel 3"
+  },
+  "mint-instructions": {
+    "welcome-title": "Bienvenido a LOCKERVERSE",
+    "mint-text": "Para acuñar y poseer un <span> Bronny vs Bronald NFT</span>, hay un par de pasos que debes seguir para asegurarte de que estás listo para acuñar.",
+    "guide-text": "Le guiaremos a través de los pasos necesarios.",
+    "completion-time": "Tiempo estimado de realización: <span>20 minutos</span>",
+    "completion-count": "127+ ha completado la precarga",
+    "risk-and-warnings": "riesgos y advertencias",
+    "risk-description": "Cryptocurrency is an exciting new innovation. Sin embargo, <span> existen muchos riesgos </span> asociados a la participación en la criptomoneda y en el espacio Web3 en general.",
+    "risk-confirmation": "Comprendo los riesgos",
+    "note-1-text": "Lockerverse nunca te enviará un Mensaje Directo en Twitter o en canales públicos.",
+    "note-2-text": "Recibirás Mensajes Directos de estafadores que se hacen pasar por Lockerverse.",
+    "note-3-text": "No hagas clic en los enlaces si no están publicados en los canales oficiales de Lockerverse.",
+    "note-4-text": "Comprueba siempre el nombre de usuario. Las actualizaciones sólo vendrán de @Lockerverse.",
+    "note-5-text": "Nunca compartas tu contraseña, claves privadas o frase de recuperación con nadie.",
+    "note-6-text": "Lockerverse nunca te pedirá que introduzcas manualmente tu contraseña o frase de recuperación.",
+    "note-7-text": "Por favor, lea y siga las acciones en nuestro canal de Discord #stay-secure",
+    "what-is-phantom": "¿qué es phantom?",
+    "phantom-description": "<span>Phantom</span> hace que sea seguro y fácil para usted almacenar, comprar, enviar, recibir, intercambiar tokens y recoger NFTs en la blockchain Solana.",
+    "phantom-description-2": "Se trata de una cartera sin custodia, lo que significa que usted tiene pleno control sobre sus inversiones, no hay una autoridad central que le apoye.",
+    "go-next": "Siguiente",
+    "connect-wallet": "Conecta <span>Phantom</span> para que podamos escanear el saldo de IDs de cartera antes del paso 2.",
+    "wallet-not-installed": "Hemos detectado que <span>no tiene</span> instalado Phantom.",
+    "what-is-sol": "¿QUÉ ES SOL?",
+    "sol-description": "<span>SOL</span> es la criptomoneda nativa de la cadena de bloques Solana. Hoy en día, 1 SOL = $X.XX.",
+    "sol-balance-text": "Recomendamos cargar <span>al menos 3 SOL</span> en tu cartera para tener la oportunidad de acuñar un NFT Bronny vs Bronald.",
+    "own-sol-text": "Usted es el propietario de este SOL, y es su propia responsabilidad. Si no consigue acuñar un NFT, seguirá siendo el propietario de este SOL.",
+    "buy-sol": "Comprar 3+ SOL",
+    "buy-later": "Compraré más tarde",
+    "whitelist-token": "TOKEN DE LISTA BLANCA",
+    "early-access-text": "<span>Las fichas de lista blanca</span> se utilizan para obtener acceso anticipado a una venta NFT.",
+    "sale-start-time-text": "Las “<span>Bronny WL Tokens</span>” y las “<span>Bronald WL Tokens</span>” estarán disponibles a través de nuestros canales oficiales.",
+    "key-eye-on-updates-text": "Estate atento a Twitter y Discord para encontrar oportunidades de ganar una ficha de lista blanca (WL)."
+  },
+  "livestream": {
+    "live-button": "Stream",
+    "offline-tooltip": "Stream no está en línea"
+  },
+  "chatV2": {
+    "dm": {
+      "messages": "Mensajes",
+      "create-dm": "Crear chat directo",
+      "select-user": "Seleccionar usuario",
+      "preview": {
+        "no-message": "Aún no hay mensajes..."
+      },
+      "drop-attachments": "Envíe aquí sus archivos adjuntos",
+      "no-preview-file-type": "No hay vista previa para este tipo de archivo"
+    }
+  },
+  "action-link": {
+    "type": {
+      "label": "Tipo de vínculo",
+      "values": {
+        "no-link": "Sin enlace",
+        "channel": "Canal",
+        "custom": "A medida"
+      }
+    },
+    "channel": {
+      "label": "Canal",
+      "preview-link": "Enlace a #{{channelName}} canal"
+    }
+  },
+  "payments": {
+    "price-per-month": "{{price}} / mes",
+    "price-per-year": "{{price}} / año",
+    "join-now": "Únete ahora",
+    "payment-error": "Se produjo un error durante el pago, inténtelo nuevamente más tarde.",
+    "pay-button": "Pagar {{price}}",
+    "successful-payment": "Su pago recibido exitosamente.",
+    "processing": "Procesando pago. Recibirá un correo electrónico con actualizaciones en breve. Visite esta página más tarde.",
+    "payment-failed": "Pago fallido. Pruebe con otro método de pago.",
+    "total": "Total",
+    "every-month": "cada mes",
+    "every-year": "cada año",
+    "charge-info": "Se le cobrará mensualmente hasta que se cancele",
+    "thank-you": "Gracias",
+    "explore-more": "Explora contenidos exclusivos en Lockerverse",
+    "monthly": "Mensualmente",
+    "annually": "Anualmente",
+    "one-time": "Una sola vez",
+    "funds-allocation": "Sus fondos serán asignados: ",
+    "category-allocation": "{{allocationValue}}% a {{categoryName}}",
+    "select-amount": "Seleccione el importe",
+    "otc-thank-you-text": "Gracias por apoyar a la comunidad {{communityName}}",
+    "validation": {
+      "select-tier": "Seleccione un nivel para continuar",
+      "enter-contribution-amount": "Seleccione una cantidad para contribuir",
+      "contribution-should-be-positive": "El importe debe ser un número positivo"
+    },
+    "footer": {
+      "lockerverse-label": "© 2024 Lockerverse, Inc. Todos los derechos reservados.",
+      "support-label": "Ayuda",
+      "privacy-label": "Privacidad",
+      "terms-label": "Términos",
+      "powered-by-lockerverse-label": "Desarrollado por Lockerverse"
+    }
+  },
+  "date": {
+    "today": "Hoy"
+  },
+  "subscriptions": {
+    "title": "Suscripciones",
+    "user-settings": {
+      "hint": "Gestione aquí sus suscripciones comunitarias",
+      "active-subscriptions": "Suscripciones activas",
+      "invoices": "Facturas",
+      "community-subscriptions": "Suscripciones comunitarias"
+    }
+  },
+  "one-time-contribution": {
+    "title": "Contribución única",
+    "hint": "Ayúdenos con una contribución única",
+    "amount-label": "Datos de pago",
+    "pay": "Pagar"
+  },
+  "shareable-content": {
+    "open-community": "Comunidad abierta",
+    "join-community": "Únete a la Comunidad",
+    "private-content-title": "Este contenido es privado",
+    "paid-content-modal-title": "Actualice su suscripción",
+    "paid-content-modal-subtitle": "Adquiera una suscripción para disfrutar de los contenidos de su comunidad favorita y mucho más",
+    "paid-content-modal-button-text": "Suscripción de compra"
+  },
+  "admin-help": {
+    "title": "Ayuda administrativa"
+  }
+}

@@ -1,0 +1,80 @@
+@import 'stream-chat-react/dist/css/index.css';
+@import "fonts.css";
+@import "status-indicators.css";
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --left-panel-width: 248px;
+    --central-panel-width: calc(55% - var(--left-panel-width));
+    --left-panel-banner-width: 140px;
+}
+
+html img,
+html svg {
+    display: inline-block;
+}
+
+._loading_overlay_wrapper {
+    height: 100%;
+}
+
+._loading_overlay_wrapper--active {
+    overflow: hidden;
+}
+
+._loading_overlay_overlay {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.overlay {
+    z-index: 100;
+}
+
+.input {
+    font-family: Inter, sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-none::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-none {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-input-placeholder {
+    font-family: Inter, sans-serif;
+}
+
+:-moz-placeholder {
+    font-family: Inter, sans-serif;
+}
+
+::-moz-placeholder {
+    font-family: Inter, sans-serif;
+}
+
+:-ms-input-placeholder {
+    font-family: Inter, sans-serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.Label {
+    color: white !important;
+}
+
+.p-PaymentMethodSelector, .p-LinkAutofillPrompt {
+    display: none !important;
+}

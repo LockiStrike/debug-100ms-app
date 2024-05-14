@@ -1,1 +1,789 @@
-{}
+{
+  "error": {
+    "something-went-wrong": "Something went wrong"
+  },
+  "global": {
+    "drop-here": "Drop here",
+    "settings": "Settings",
+    "done": "Done",
+    "change": "Change",
+    "unknown": "unknown",
+    "delete": "Delete",
+    "leave": "Leave",
+    "ban": "Ban",
+    "unban": "Unban",
+    "timeout": "Timeout",
+    "untimeout": "Untimeout",
+    "block": "Block",
+    "unblock": "Unblock",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "join": "Join",
+    "confirm": "Confirm",
+    "back": "Back",
+    "select-all": "Select All",
+    "next": "Next",
+    "nft": "NFT",
+    "photo": "Photo",
+    "video": "Video",
+    "attachment": "Attachment",
+    "send": "Send",
+    "add": "Add",
+    "explore": "Explore",
+    "log-out": "Log out",
+    "log-in": "Log in",
+    "download-app": "Download app",
+    "home": "Home",
+    "sign-out": "Sign out",
+    "continue": "Continue",
+    "resend": "Resend",
+    "required": "Required",
+    "and": "and",
+    "create": "Create",
+    "view": "View",
+    "add-new": "Add New",
+    "search": "Search",
+    "buy": "Buy",
+    "start": "Start",
+    "connect": "Connect",
+    "install": "Install",
+    "finish": "Finish",
+    "save": "Save",
+    "apply": "Apply",
+    "delete-success": "Successfully deleted",
+    "test": "Test",
+    "remove": "Remove",
+    "max-file-size": "Max file size: {{fileSize}}",
+    "file-type-not-allowed": "File type is not allowed",
+    "file-too-big": "File size is too large",
+    "upload-video": "Upload video",
+    "general-error": "An error occurred. Please try again later",
+    "upload": "Upload",
+    "download": "Download"
+  },
+  "time": {
+    "monthly": "Monthly",
+    "annually": "Annually"
+  },
+  "channel": {
+    "read-only-mode": "Channel is in read-only mode",
+    "connection-error": "Connection error, please wait a moment and try again.",
+    "channel-members-online-info_one": "{{membersCount}} member, {{onlineCount}} online",
+    "channel-members-online-info_other": "{{membersCount}} members, {{onlineCount}} online",
+    "fetch-users-error": "An error occurred while loading users",
+    "members-label_one": "1 member",
+    "members-label_other": "{{count}} members",
+    "no-messages-yet": "No messages yet...",
+    "name-placeholder": "group-name",
+    "channels": {
+      "name": {
+        "plural": "Channels"
+      },
+      "loading": "Channels loading...",
+      "no-channels-text": "You have no channels yet...",
+      "new-channel": "New Channel"
+    },
+    "chats": {
+      "name": {
+        "plural": "Messages"
+      },
+      "loading": "Messages loading...",
+      "no-channels-text": "You have no chats yet...",
+      "create-new-button-text": "New Private Message",
+      "select-user": "Select User",
+      "new-group": "New Group"
+    },
+    "search": {
+      "placeholder": "Search for channel",
+      "no-channels-found": "No channels found",
+      "no-chats-found": "No chats found"
+    },
+    "permission": {
+      "block-general-title": "What can members of this group do?",
+      "send-message-title": "Send messages",
+      "send-message-error": "Update read-only setting failed",
+      "send-media-title": "Send Media",
+      "error-common": "Error occurred updating permission",
+      "send-stickers-and-gifs-title": "Send Stickers & GIFs",
+      "send-links-title": "Send Links",
+      "send-polls-title": "Send Polls",
+      "add-members-title": "Add Members",
+      "pin-messages-title": "Pin Messages",
+      "only-nft-owner-title": "Only NFT Owner",
+      "slow-mode-title": "Slow mode",
+      "fetch-error": "There was a problem fetching your permissions"
+    },
+    "action": {
+      "update-name-success": "Channel name changed!",
+      "update-name-confirmation-text": "Are you sure to change the channel name to #{{name}}?",
+      "confirm-leave-title": "Confirm leave",
+      "leave-pass-admin-rights": "Pass admin rights to",
+      "leave-confirmation-text": "Are you sure you want to leave the channel #{{channelName}}?",
+      "leave-success": "Left #{{channelName}} channel",
+      "delete-success": "#{{channelName}} channel deleted.",
+      "delete-confirmation-text": "Are you sure you want to delete #{{channelName}}? This cannot be undone.",
+      "leave-title": "Leave Channel",
+      "leave-button-text": "Leave Channel",
+      "delete-title": "Delete Channel",
+      "delete-button-text": "Delete Channel",
+      "join-title": "Join Channel",
+      "join-success": "Successfully joined.",
+      "join-error": "Failed to Join the channel.",
+      "join-confirmation-text": "Are you sure you want to join the channel {{channelName}}?",
+      "join": "Join",
+      "update-name-title": "Change Channel Name",
+      "block-success": "User has been blocked",
+      "block-error": "User was not blocked",
+      "unblock-success": "User has been blocked",
+      "unblock-error": "User was not blocked",
+      "update-notification-settings-success": "Push notification settings were not updated for {{channelType}} channel type",
+      "cannot-leave-lockerverse": "You cannot leave from Lockerverse community"
+    },
+    "message": {
+      "action": {
+        "delete-title": "Delete Message",
+        "send": "Send Message",
+        "pin": "Pin",
+        "edit": "Edit",
+        "reply": "Reply",
+        "open-thread": "Open Thread",
+        "copy-text": "Copy Text",
+        "flag": "Flag",
+        "delete-confirmation": "Are you sure you want to delete selected message?"
+      }
+    },
+    "validation": {
+      "name-already-taken": "This name is already taken",
+      "name-required": "Name is required"
+    },
+    "select-user": {
+      "select-title_one": "Select User",
+      "select-title_other": "Select Users",
+      "no-matches-found": "No matching users found",
+      "no-users-found": "No users found"
+    },
+    "context-menu": {
+      "no-actions-available": "There are no actions you can do at the moment",
+      "cannot-message-blocked-user": "You cannot send message to the user you blocked"
+    }
+  },
+  "user": {
+    "profile": "Profile",
+    "profile-photo": "Profile photo",
+    "update-error": "An error while updating profile",
+    "update-success": "Updated",
+    "about-me-max-length": "About me can be only {{length}} characters long",
+    "banner": "Banner",
+    "introduce-yourself": "Introduce yourself...",
+    "update": "Update",
+    "banner-color": "Banner Color",
+    "upload-banner": "Upload banner",
+    "banner-select-format-text": "Select a PNG, JPG or GIF",
+    "or-dnd-here": "or drag and drop here",
+    "about-me": "About Me",
+    "fetch-error": "Failed to fetch user",
+    "action": {
+      "delete-title": "Delete Account",
+      "delete-button-text": "Delete Account",
+      "delete-failed": "User delete failed",
+      "delete-confirmation-text": "Are you sure you want to delete your account?"
+    },
+    "collection-panel": {
+      "my-collection": "My Collection",
+      "owned": "Owned",
+      "search-for-nft": "Search for NFT",
+      "mint": "Mint",
+      "redeem": "Redeem",
+      "owned-by-you": "Owned by you",
+      "description": "Description"
+    },
+    "validation": {
+      "first-name-required": "First name is required"
+    },
+    "wallet": {
+      "title": "Wallet",
+      "install-wallet": "Install Wallet",
+      "connect-wallet": "Connect Wallet"
+    },
+    "user-settings": "User Settings",
+    "my-collection": "My Collection",
+    "user-profile": "User profile",
+    "payment-settings": "Payment Settings"
+  },
+  "community": {
+    "join-error": "There was a problem joining the community",
+    "leave-error": "There was a problem leaving the community",
+    "user-management": "User Management",
+    "messages-management": "Messages Management",
+    "channel-management": "Channel Management",
+    "invite-people": "Invite people",
+    "community-settings": "Community Settings",
+    "create-channel": "Create Channel",
+    "tier": {
+      "title": "Community paid tiers",
+      "reorder-error": "Failed to reorder tiers",
+      "add-tier-title": "New tier",
+      "add-tier-subtitle": "Add new paid tier",
+      "add-tier": "Add",
+      "tier-created": "New tier is created",
+      "name": "Tier name",
+      "name-placeholder": "Tier name",
+      "price": "Price",
+      "description": "Description",
+      "perks": "Perks",
+      "description-placeholder": "Description line",
+      "tier-modified": "Tier has been successfully updated",
+      "cannot-delete": "Cannot delete tier as it has active subscriptions. Please contact Lockerverse support.",
+      "annual-price": "Annual price"
+    },
+    "overview": {
+      "overview-title": "Overview",
+      "name-field-title": "Community name",
+      "name-field-placeholder": "Enter a name...",
+      "update-success": "Community is updated",
+      "update-failed": "Failed to update community",
+      "change-avatar": "Change Avatar",
+      "edit-image": "Edit Image",
+      "upload-banner": "Upload Banner",
+      "default-channel": "Default Channel",
+      "no-default-channel": "No Default Channel",
+      "description": "Description",
+      "color": "Color"
+    },
+    "official-content": {
+      "title": "Promo Content",
+      "select-type-title": "Content Type",
+      "file-select-option": "Upload own content",
+      "link-select-option": "Link to Youtube",
+      "upload-new-content": "Upload new content",
+      "action-banner-description": "Main content on the front page of your community",
+      "no-content": "No Content is set up just yet...",
+      "current-content": "Current Content: ",
+      "remove-success": "Promo Content is removed",
+      "remove-failure": "Failed to remove promo content",
+      "youtube-link-label": "Link to Youtube",
+      "type-required": "Type is required",
+      "external-link-required": "Link is required",
+      "file-required": "File is required"
+    },
+    "invite": {
+      "invites": "Invites",
+      "create-link": "Create New Invite Link",
+      "welcome-channel-label": "Redirect To",
+      "welcome-channel-hint": "Choose the channel user will see when he opens the app",
+      "no-welcome-channel": "No Selected Channel",
+      "link-title": "Invite Link",
+      "share-with-friend": "Send a Community Invite Link to a Friend",
+      "validating-link": "Validating invite link....",
+      "link-invalid": "Invite link is invalid",
+      "accepting-link": "Accepting invite link....",
+      "link-accepted": "Link was accepted. Redirecting you to the app...",
+      "invite-url-validation-error": "Invite URL can only contain alphanumeric characters (A-Z and 0-9), underscores and dashes",
+      "invite-type": "Link Type",
+      "redirect-type": "Redirect Type",
+      "invite-url": "Invite URL",
+      "invite-type-generated": "Generated",
+      "invite-type-custom": "Custom",
+      "redirect-type-channel": "Channel",
+      "redirect-type-merch": "Merch",
+      "create-link-error": "Failed to create the invite link",
+      "assign-role-label": "Assign Role",
+      "assign-role-admin": "Admin",
+      "assign-role-user": "User",
+      "assign-role-user-free-access": "User with free access",
+      "usage-type-label": "Usage Limit",
+      "usage-type-one-time": "One time use",
+      "usage-type-unlimited": "Unlimited use",
+      "user-filter-label": "User",
+      "admin-filter-label": "Admin",
+      "user-free-access-filter-label": "User Free",
+      "uses-label": "Uses",
+      "used-label": "Used"
+    },
+    "role": {
+      "roles-title": "Roles",
+      "add-members-to-role": "Add Members - {{role}}",
+      "edit-role": "Edit Role - {{role}}",
+      "search-users": "Search Users",
+      "role-assign-success": "Role assigned",
+      "role-unassign-success": "{{userName}} is no longer a {{roleTitle}}",
+      "add-members": "Add members",
+      "fetch-error": "Failed to fetch community roles",
+      "organize-your-members": "Organize your members",
+      "organize-members-subtitle": "Use roles to group your community members and assign permissions.",
+      "assign-role": "Assign Role",
+      "search-roles": "Search Roles",
+      "admin": "Admin",
+      "moderator": "Moderator",
+      "user": "User",
+      "user-free-access": "Free Access User"
+    },
+    "ban": {
+      "ban-user": "Ban User",
+      "banned-users": "Banned User",
+      "success-text": "User has been banned",
+      "error-text": "User was not banned",
+      "unban-title": "Unban User",
+      "unban-success": "User has been unbanned",
+      "unban-error": "User was not unbanned",
+      "ban-reason": "Banned by <b>{{bannedBy}}</b> for <b> {{reason}}</b>",
+      "remove-ban": "Remove ban",
+      "filter-mock": "Filter by action <b>all</b>",
+      "fetch-error": "There was a problem fetching banned users",
+      "ban-confirmation-text": "Are you sure you want to ban @{{userName}}?",
+      "unban-confirmation-text": "Are you sure you want to unban @{{userName}}?",
+      "search-users": "Search Users"
+    },
+    "timeout": {
+      "timed-out-users": "Timed out users",
+      "timeout-user": "Timeout User",
+      "timeout-confirmation-text": "Are you sure you want to timeout @{{userName}}?",
+      "success-text": "User has been timed out",
+      "error-text": "User was not timed out",
+      "untimeout-user": "Untimeout User",
+      "untimeout-success": "User has been untimed out",
+      "untimeout-error": "User was not timed out",
+      "untimeout-confirmation-text": "Are you sure you want to untimeout @{{userName}}?",
+      "time-left": "{{time}} left",
+      "remove-timeout": "Remove timeout",
+      "search-users": "Search Users"
+    },
+    "notification": {
+      "messaging": "Push Notifications",
+      "notifications": "Notifications",
+      "all-users": "All Users",
+      "selected-users": "Selected Users",
+      "push-success-message_one": "Push Notification was successfully sent to 1 device",
+      "push-success-message_other": "Push Notification was successfully sent to {{count}} devices",
+      "push-error-message": "Failed to send a push notification",
+      "send-to": "Send To",
+      "recipients": "Recipients",
+      "title": "Title",
+      "body": "Body",
+      "team-channels": "Team Channels",
+      "messaging-channels": "Direct Messages",
+      "events": "Events",
+      "system": "System",
+      "validation": {
+        "at-least-1-recipient": "You should choose at least 1 recipient",
+        "valid-deep-link": "You should enter valid Lockerverse deep link"
+      },
+      "navigate-url": "Navigation URL",
+      "title-placeholder": "Hello from Lockerverse",
+      "body-placeholder": "Checkout our new merch",
+      "advanced-section": "Advanced"
+    },
+    "flag": {
+      "flagged-messages": "Flagged messages"
+    },
+    "channel": {
+      "edit-channels": "Edit channels",
+      "channel-order": {
+        "title": "Channel Order",
+        "subtitle": "Drag and drop to reorder community channels."
+      }
+    },
+    "content": {
+      "title": "Content",
+      "update-success": "Successfully uploaded!",
+      "update-error": "An error while uploading",
+      "name": "Name",
+      "name-placeholder": "Enter Content Name",
+      "description": "Description",
+      "description-placeholder": "Enter Content Description",
+      "upload-file": "Upload file",
+      "dropzone-hint": "Drop files here or click to select files",
+      "uploading": "Uploading...",
+      "batch-delete-disabled-tooltip": "You should select items to delete first",
+      "view-title": "Content",
+      "no-content": "There is no content yet",
+      "read-more": "Read More",
+      "file-required": "File is required",
+      "name-required": "Name is required",
+      "description-required": "Description is required",
+      "description-max-length-error": "Description can't be longer than {{maxLength}} symbols"
+    },
+    "shop": {
+      "title": "Shop",
+      "add-your-shop-title": "Add your Shop to Community",
+      "add-your-shop-subtitle": "Add your shop to community using API access token",
+      "add-shop": "Add shop",
+      "fetch-error": "Failed to fetch community shops",
+      "shop-url-pattern-error": "Shop url should ends with .myshopify.com",
+      "shop-is-saved": "Shop is saved",
+      "failed-to-save": "Failed to save shop",
+      "shop-label": "Shop title",
+      "shop-placeholder": "Merch Shop",
+      "shop-label-hint": "display name for your shop",
+      "required-for-nft-gating": "required for NFT token gating",
+      "api-secret-key": "API secret key",
+      "shop-url": "Shop URL",
+      "storefront-token": "Storefront API access token",
+      "admin-api-token": "Admin API Access token",
+      "admin-api-token-placeholder": "Your Admin API access token",
+      "collection-id-label": "Collection ID",
+      "collection-id-label-hint": "Specify to show only certain collection, leave empty for all shop products",
+      "collection-id-placeholder": "427123456789",
+      "confirm-dialog": {
+        "title": "Remove shop",
+        "remove-shop-text": "Are you sure you want to remove shop {{shopName}} from the community?",
+        "remove-success": "Shop is successfully removed",
+        "remove-failure": "Failed to remove the shop"
+      }
+    },
+    "widgets": {
+      "title": "Widgets",
+      "title-input": "Widget Name",
+      "edit-header": "Edit Widget",
+      "update-error": "Failed to update the Widget",
+      "reorder-error": "Failed to reorder the Widget"
+    },
+    "banners": {
+      "title": "Banners",
+      "banner-details": "Banner Details",
+      "button-title-field": "Button Title",
+      "banner-state-visible": "Visible",
+      "banner-state-hidden": "Hidden",
+      "banner-enable": "Enable",
+      "banner-disable": "Disable",
+      "upload-dropzone-hover-text": "Upload Banner",
+      "errors": {
+        "fetch-all": "Failed to load Banners",
+        "create": "Failed to create the Banner",
+        "update": "Failed to update the Banner",
+        "delete": "Failed to delete the Banner",
+        "reorder": "Failed to reorder the Banner"
+      }
+    },
+    "livestream": {
+      "title": "Livestream",
+      "stream-id": "ID of Bambuser livestream",
+      "broadcast-key": "Broadcast Key",
+      "id-required": "ID is required",
+      "enable-toggle-text": "Livestream status",
+      "enable-toggle-hint": "Show or hide the livestream for users in the app",
+      "update-success": "Livestream Settings are updated",
+      "update-failure": "Failed to update livestream settings"
+    },
+    "poll": {
+      "title": "Poll",
+      "add-poll-title": "Create Poll",
+      "add-poll-subtitle": "Create Poll to communicate with your community",
+      "add-poll": "Create Poll",
+      "question": "Question",
+      "ask-question": "Ask a question",
+      "poll-options": "Poll options",
+      "option-placeholder": "Option",
+      "option-validation-error": "At least 2 options are required",
+      "poll-created": "Poll has been successfully created",
+      "reorder-error": "Failed to reorder Polls",
+      "options": "Options"
+    },
+    "discover": {
+      "search": "Search",
+      "join": "Join",
+      "joined": "Joined",
+      "request-join": "Request Join",
+      "purchase-subscription": "Purchase",
+      "cancel-request-join": "Cancel Request",
+      "request-cancelled": "Request to join is canceled",
+      "request-success": "Request to join is recorded"
+    },
+    "members": {
+      "title": "Members",
+      "username": "Username",
+      "membership": "Membership",
+      "signup-date": "Signup date",
+      "free": "Free",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "basic": "Basic"
+    },
+    "channels": {
+      "title": "Channels",
+      "update-success": "Channels Settings are updated",
+      "update-failure": "Failed to update channels settings",
+      "list": "Full channel list view",
+      "single": "1 channel view"
+    },
+    "content-management": {
+      "title": "Content Management",
+      "action-banner-title": "Add new news stream",
+      "action-banner-description": "Add a news stream to your community",
+      "action-banner-button-text": "Add news stream",
+      "name": "Name",
+      "search-query": "Search Query",
+      "query-interval": "Query Interval",
+      "inserted-articles": "Articles inserted with each run",
+      "status": "Status",
+      "every-n-days_one": "Every <span>{{count}}</span> day",
+      "every-n-days_other": "Every <span>{{count}}</span> days",
+      "articles-per-query_one": "<span>{{count}}</span> article per query",
+      "articles-per-query_other": "<span>{{count}}</span> articles per query",
+      "active": "Active",
+      "inactive": "Inactive",
+      "add-news-stream": "Add news stream",
+      "articles-amount": "The amount of articles that automatically inserted with each run",
+      "create-success": "News Stream has been successfully created",
+      "create-failure": "Failed to create News Stream",
+      "delete-success": "News Stream has been successfully deleted",
+      "delete-failure": "Failed to delete News Stream",
+      "query-interval-in-days": "Query Interval in days"
+    }
+  },
+  "crypto": {
+    "mint": {
+      "nft-is-ready": "Your NFT is Ready \uD83C\uDF89",
+      "nft-minted-greeting": "Congratulations! Now you have your personal NFT.",
+      "check-out": "Check out",
+      "mint-in-progress": "Minting your NFT",
+      "wait-for-mint-main-text": "Feel free to browse through our channels.",
+      "wait-for-mint-secondary-text": "We’ll notify you once your NFT will be ready.",
+      "get-my-nft": "Get My NFT"
+    },
+    "deposit": {
+      "deposit-address": "Deposit address",
+      "chain-warning": "Send only <span>{{chain}}</span> NFT to this address, otherwise your asset will be lost.",
+      "cryptocurrency-warning": "Send only NFT to this address. Sending cryptocurrencies will lead to funds lost."
+    },
+    "promo-nft": {
+      "header": "You have you a promo NFT to redeem!",
+      "subheader": "Ready to redeem it? 🎉",
+      "cta": "See my tokens"
+    }
+  },
+  "legal": {
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "mobile-socials": {
+    "be-first-to-know": "Be the first to know \uD83D\uDE80"
+  },
+  "sign-up": {
+    "title": "Sign up",
+    "name-label": "Full name (will be displayed to other users)",
+    "already-have-account-text": "Already have an account?",
+    "confirm-code": {
+      "code-sent": "Code has been resent",
+      "confirm-error": "Unable to confirm code, please try again",
+      "code-sent-to-phone": "We have sent a code to your phone. \uD83D\uDD10",
+      "didnt-receive-text": "Didn't receive the code?",
+      "confirm-success": "User has been confirmed. You can now login with your phone number and password.",
+      "code-incorrect": "An error occurred. Please check if the code is correct.",
+      "enter-code": "Enter your code"
+    },
+    "enter-password": "Enter your password",
+    "create-password": "Create your password",
+    "phone": "Phone",
+    "password": "Password",
+    "toc-label": "Terms and conditions",
+    "toc-1": "I agree and acknowledge that Lockerverse may send text messages to my wireless phone number for any purpose, including marketing and other commercial purposes. This agreement is not a condition of any purchase. I also agree to the",
+    "tos-label": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "toc-last": ". Lockerverse will send up to 4 Msgs/Month. Msg & Data rates may apply.",
+    "error-general": "An error occurred during sign up. Please try again later",
+    "claim": {
+      "enter-phone-number": "Enter your phone number",
+      "sign-up-to-redeem": "Sign up to redeem it",
+      "log-in-to-redeem": "Log in to redeem it",
+      "token-greetings": "Congratulations! You won a token \uD83C\uDF89",
+      "congratulations": "Congratulations",
+      "you-won-token": " You won a token \uD83C\uDF89"
+    },
+    "validation": {
+      "phone-required": "Phone number is required",
+      "phone-not-valid": "Phone number is not valid",
+      "user-with-phone-already-exists": "User with the given phone number already exists. Please try to sign in.",
+      "creds-invalid": "An error occurred during login. Please make sure your phone and password are correct and try again.",
+      "general-error": "An error occurred. Please try again later",
+      "name-required": "Name is required",
+      "country-not-supported": "Phone numbers from this country are not yet supported",
+      "password-general": "password must contain 8 or more characters with at least one of each: uppercase, lowercase, number and special",
+      "password-lower-letter": "password must contain at least 1 lower case letter",
+      "password-upper-letter": "password must contain at least 1 upper case letter",
+      "password-number-letter": "password must contain at least 1 number",
+      "password-special-character": "password must contain at least 1 special character"
+    }
+  },
+  "log-in": {
+    "title": "Log In",
+    "log-in-error": "Whoops! Looks like there was an error",
+    "user-not-confirmed": "Your account is not confirmed. We sent a SMS with confirmation code to your phone.",
+    "dont-have-account": "Don't have an account?",
+    "forgot-password": "Forgot password?"
+  },
+  "enter-page": {
+    "title": "Enter the lockerverse",
+    "description": "The first-of-its-kind digital platform at the crossroads of sports, gaming, anime, fashion, art, and culture where we platform the personal collections of life’s greatest legends-in-the-making.",
+    "join-now": "Join now"
+  },
+  "forgot-password": {
+    "title": "Forgot your password?",
+    "subtitle": "Don’t worry! It happens. Please enter your registered phone number.",
+    "general-error": "An error occurred. Please try again later.",
+    "reset-success": "Your password has been successfully changed.",
+    "reset-failed": "An error occurred. Make sure that new password is different than old one and try again.",
+    "placeholder": "Put your password",
+    "verification-code": "Verification code",
+    "reset-password": "Reset password"
+  },
+  "main-page": {
+    "title-1": "Exhibit the Legends",
+    "text-1": "The Lockerverse team is proud to exhibit the work and personas of legends as they're in the process of becoming. It is an epic undertaking that explores our talent in the great dimensions of their being, but also underscores the ways that they're just like us.",
+    "text-2": "We're not only telling stories, We're telling the truth... With authenticity as our north star, we zero in on what makes our heroes grounded and relatable-the proverbial “everyman” that thrives behind the public persona.",
+    "text-3": "We're not only telling stories, We're telling the truth... With authenticity as our north star, we zero in on what makes our heroes grounded and relatable-the proverbial “everyman” that thrives behind the public persona.",
+    "find-more": "Find more",
+    "enter-the-lockerverse": "Enter the lockerverse",
+    "sub-header": "The first-of-its-kind digital platform at the crossroads of sports, gaming, anime, fashion, art, and culture where we platform the personal collections of life&apos;s greatest legends-in-the-making.",
+    "what-is-nft": "What is an NFT",
+    "what-is-nft-description": "An NFT, short for &apos;Non-Fungible Token&apos;, is a digital asset existing on the blockchain that allows holders access to specific communities, platforms, and gated spaces.",
+    "nft-special-title": "What Makes Lockerverse NFT's special?",
+    "nft-special-description": "Let's face it: being first is a flex. You were a first. When you were born, you came into this life being one of a kind. Why should your art be any different? Technology has given us the ability to magnify the lens of how we create, how we personalize. And at the center of this is you. NFT ownership is how tomorrow's visionaries are reclaiming our individuality and creativity by putting the power back in our hands. These are the spaces where we are defining our culture, giving wings to what matters most to us. <br /> <br /> <br /> With new NFT collections coming out every week, it's getting increasingly difficult to separate the burnouts from the lasting legends, but Lockerverse tokens are here to stay. And you'll want one because everyone we welcome into our collective is here in earnest to explore, challenge, disrupt, and shape the canvas of the future. The metaverse is the wild west and we're trailblazing together. Follow the creatives making the biggest waves and enjoying knowing that you saw it first. Sure you can join us at any time, but journeys are always best when you start from the beginning."
+  },
+  "room-page": {
+    "go-to-bronny-room": "Go to Bronny's room"
+  },
+  "prepay": {
+    "nft-sale": "NFT sale",
+    "buy-cj": "Buy CJ Stroud Collectible ☄️",
+    "secondary-title": "Please, prepay NFT to claim it",
+    "pay": "pay",
+    "enter-lockerverse": "Enter Lockerverse"
+  },
+  "pre-purchase-flow": {
+    "banner-title": "Check out new collection <br /> of Chase B",
+    "tiers-header": "Chase B Collection",
+    "tier-1": "Tier 1",
+    "tier-2": "Tier 2",
+    "tier-3": "Tier 3"
+  },
+  "mint-instructions": {
+    "welcome-title": "Welcome to the LOCKERVERSE",
+    "mint-text": "To mint and own a <span> Bronny vs Bronald NFT</span>, there are a couple of steps you must take to ensure you are ready to mint.",
+    "guide-text": "We will guide you through the steps required.",
+    "completion-time": "Est. time of completion: <span>20 mins</span>",
+    "completion-count": "127+ completed the preload",
+    "risk-and-warnings": "risks and warnings",
+    "risk-description": "Cryptocurrency is an exciting new innovation. However, <span> there are many risks </span> associated with being involved in cryptocurrency and the Web3 space in general.",
+    "risk-confirmation": "I understand the risks",
+    "note-1-text": "Lockerverse will never send you a Direct Message on Twitter or public channels.",
+    "note-2-text": "You will receive Direct Messages from scammers impersonating Lockerverse.",
+    "note-3-text": "Do not click links if they are not posted on Lockerverse official channels.",
+    "note-4-text": "Always check the username. Updates will only come from @Lockerverse.",
+    "note-5-text": "Never share your password, private keys, or recovery phrase with anyone.",
+    "note-6-text": "Lockerverse will never ask you to manually input your password or recovery phrase.",
+    "note-7-text": "Please read and follow the actions in our Discord channel #stay-secure",
+    "what-is-phantom": "what is phantom?",
+    "phantom-description": "<span>Phantom</span> makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.",
+    "phantom-description-2": "This is a non-custodial wallet, meaning, you have full control over your investments, there is no central authority to support you.",
+    "go-next": "Go Next",
+    "connect-wallet": "<span>Connect</span> Phantom so we can scan the wallet IDs balance before step 2.",
+    "wallet-not-installed": "We detected you <span>do not have</span> Phantom installed.",
+    "what-is-sol": "WHAT IS SOL?",
+    "sol-description": "<span>SOL</span> is the native cryptocurrency of the Solana blockchain. Today, 1 SOL = $X.XX.",
+    "sol-balance-text": "We recommend loading <span>at least 3 SOL</span> in your wallet to be in with a chance to mint a Bronny vs Bronald NFT.",
+    "own-sol-text": "You own this SOL, and it is your own responsibility. If you don't successfully mint an NFT, you will still own this SOL.",
+    "buy-sol": "Buy 3+ SOL",
+    "buy-later": "I'll buy later",
+    "whitelist-token": "WHITELIST TOKEN",
+    "early-access-text": "<span>Whitelist Tokens</span> are used in order to gain early access to an NFT sale.",
+    "sale-start-time-text": " “<span>Bronny WL Tokens</span>” and “<span>Bronald WL Tokens</span>” will be available through our official channels.",
+    "key-eye-on-updates-text": " Keep an eye on Twitter and Discord to find opportunities to earn a Whitelist (WL) Token."
+  },
+  "livestream": {
+    "live-button": "Stream",
+    "offline-tooltip": "Stream is offline"
+  },
+  "chatV2": {
+    "dm": {
+      "messages": "Messages",
+      "create-dm": "Create Direct Chat",
+      "select-user": "Select User",
+      "preview": {
+        "no-message": "No Messages yet..."
+      },
+      "drop-attachments": "Drop your attachments here",
+      "no-preview-file-type": "No preview for this file type"
+    }
+  },
+  "action-link": {
+    "type": {
+      "label": "Link Type",
+      "values": {
+        "no-link": "No Link",
+        "channel": "Channel",
+        "custom": "Custom"
+      }
+    },
+    "channel": {
+      "label": "Channel",
+      "preview-link": "Link to #{{channelName}} channel"
+    }
+  },
+  "payments": {
+    "price-per-month": "{{price}} / month",
+    "price-per-year": "{{price}} / year",
+    "join-now": "Join Now",
+    "payment-error": "An error occurred during payment, please try again later",
+    "pay-button": "Pay {{price}}",
+    "successful-payment": "Your payment successfully received.",
+    "processing": "Payment processing. You will receive an email with updates shortly. Visit this page later.",
+    "payment-failed": "Payment failed. Please try another payment method.",
+    "total": "Total",
+    "every-month": "every month",
+    "every-year": "every year",
+    "charge-info": "You will be charged monthly until canceled",
+    "thank-you": "Thank you",
+    "explore-more": "Explore exclusive content on Lockerverse",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "one-time": "One-Time",
+    "funds-allocation": "Your funds will be allocated: ",
+    "category-allocation": "{{allocationValue}}% to {{categoryName}}",
+    "select-amount": "Select amount",
+    "otc-thank-you-text": "Thank you for supporting the {{communityName}} community",
+    "validation": {
+      "select-tier": "Select a Tier to continue",
+      "enter-contribution-amount": "Select an amount to contribute",
+      "contribution-should-be-positive": "Amount should be a positive number"
+    },
+    "footer": {
+      "lockerverse-label": "© 2024 Lockerverse, Inc. All rights reserved.",
+      "support-label": "Support",
+      "privacy-label": "Privacy",
+      "terms-label": "Terms",
+      "powered-by-lockerverse-label": "Powered by Lockerverse"
+    }
+  },
+  "date": {
+    "today": "Explore exclusive content onLockerverse"
+  },
+  "subscriptions": {
+    "title": "Subscriptions",
+    "user-settings": {
+      "hint": "Manage your community subscriptions here",
+      "active-subscriptions": "Active Subscriptions",
+      "invoices": "Invoices",
+      "community-subscriptions": "Community Subscriptions"
+    }
+  },
+  "one-time-contribution": {
+    "title": "One-Time Contribution",
+    "hint": "Support us with one-time contribution",
+    "amount-label": "Payment details",
+    "pay": "Pay"
+  },
+  "shareable-content": {
+    "open-community": "Open Community",
+    "join-community": "Join Community",
+    "private-content-title": "This content is private",
+    "paid-content-modal-title": "Update your subscription",
+    "paid-content-modal-subtitle": "Purchase subscription to enjoy content from your favorite community and more",
+    "paid-content-modal-button-text": "Purchase Subscription"
+  },
+  "admin-help": {
+    "title": "Admin Help"
+  }
+}
