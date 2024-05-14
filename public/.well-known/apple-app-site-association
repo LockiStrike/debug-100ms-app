@@ -1,0 +1,41 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "33799H59JW.com.lockerverse.www.Lockerverse",
+          "33799H59JW.com.lockerverse.www.Lockerverse-dev"
+        ],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Invite user to a community page"
+          },
+          {
+            "/": "/chat/*/moderation/*",
+            "exclude": true,
+            "comment": "Exclude links that lead to the community settings"
+          },
+          {
+            "/": "/chat/*",
+            "comment": "Chat application"
+          },
+          {
+            "/": "/claim/attendance/*",
+            "comment": "NFT Mint Flow"
+          },
+          {
+            "/": "/community/*/content/*",
+            "comment": "Single piece of Community Media Content"
+          },
+          {
+            "/": "*",
+            "exclude": true,
+            "comment": "Do not open it as a universal link for other URLs"
+          }
+        ]
+      }
+    ]
+  }
+}
